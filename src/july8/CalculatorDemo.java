@@ -3,6 +3,8 @@ package july8;
 import java.util.Scanner;
 
 public class CalculatorDemo {
+
+
     public static void main(String[] args) {
         System.out.println("welcome to my calculator");
         System.out.println("1. Addition");
@@ -24,6 +26,9 @@ public class CalculatorDemo {
 
                  System.out.println("Enter the second number ");
                  int num2 = scanner.nextInt();
+
+                 System.out.println("Enter the third number");
+                 int num3 = scanner.nextInt();
 
                  int sum = num1 + num2;
                  System.out.println("sum of " + num1 + " and " + num2 + " is: " + sum);

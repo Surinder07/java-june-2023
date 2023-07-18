@@ -91,3 +91,16 @@ Expected Output:Input letter is Consonant
 
 8.Write a Java program that displays the sum of n odd natural numbers.
 
+=====================
+
+
+
+
+
+
+
+
+
+
+
+
