@@ -27,3 +27,16 @@ public class StaticVariable {
 
     }
 }
+
+/*  create class -- circle
+    static variable -- PI - 3.14
+    double radius  --> instance variable
+
+    static create method --- calculateArea(radius)
+    this method should return the area of the circle.
+
+
+
+
+
+ */
