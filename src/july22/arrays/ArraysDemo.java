@@ -1,5 +1,7 @@
 package july22.arrays;
 
+import java.util.Scanner;
+
 public class ArraysDemo {
     public static void main(String[] args) {
 
@@ -10,20 +12,29 @@ public class ArraysDemo {
         x = 10; // init
 
         int num[] = new int[5];
-        String fruits[] = {"Apple", "Mango", "Orange"};
-        System.out.println();
 
+  /*      Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your values for the array");
+*/
         num[0] = 10;
-        num[1] = 20;
-        num[2] = 30;
-        num[3] = 40;
-        num[4] = 50;
+        num[1] = 11;
+        num[2] = 12;
+        num[3] = 33;
+        num[4] = 14;
 
-        System.out.println(num[0]);
-        System.out.println(num[1]);
-        System.out.println(num[2]);
-        System.out.println(num[3]);
-        System.out.println(num[4]);
+
+        /*for (int i = 0; i < 5 ; i++) {
+            System.out.println(num[i]);
+        }*/
+
+       /* for (// type something  :    array ) {
+
+        // print that something
+        }*/
+
+        for (int n : num) {
+            System.out.println(n);
+        }
 
 
 
