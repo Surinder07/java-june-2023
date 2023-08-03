@@ -23,7 +23,7 @@ class DateTest{
     }
 
     public void printDate(){
-        System.out.println("Date : " + day + " /" + month + " /"+ year);
+                System.out.println("Date : " + day + " /" + month + " /"+ year);
     }
 }
 public class ParamConstDemo {
