@@ -1,8 +1,8 @@
 package aug8;
 
-public class Computer {
-    private String model;
-    private String color;
+public class Computer extends Object{
+    String model;
+    String color;
 
     public Computer(String model, String color) {
         this.model = model;

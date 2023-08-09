@@ -2,7 +2,7 @@ package aug8;
 
 public class Laptop extends Computer{
 
-    private String screenSize;
+    String screenSize;
 
     public Laptop(String model, String color, String screenSize) {
         super(model, color);
@@ -11,6 +11,5 @@ public class Laptop extends Computer{
 
     public void printDetails(){
         System.out.println("Laptop Details " + screenSize);
-
     }
 }
