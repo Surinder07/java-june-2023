@@ -1,6 +1,6 @@
 package aug8.polyDemo;
 
-public class Rectangle extends Shape{
+public  class Rectangle extends Shape{
     double width;
     double height;
 
@@ -14,7 +14,28 @@ public class Rectangle extends Shape{
     public double getArea() {
         return width * height;
     }
+
+    public final void getRectangeLaptop(){
+
+    }
+
 }
+
+class BigRectangle extends Rectangle{
+
+    public BigRectangle(double width, double height) {
+        super(width, height);
+    }
+
+    @Override
+    public double getArea() {
+        return super.getArea();
+    }
+
+
+}
+
+
 
 //  Small exercise
 // Animal class   --- makeSound()

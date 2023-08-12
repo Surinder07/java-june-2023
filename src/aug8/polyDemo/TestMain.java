@@ -12,7 +12,5 @@ public class TestMain {
         Shape shape1 =  new Circle(5);
         System.out.println("Area of rectangle : " +shape1.getArea());
 
-
-
     }
 }
