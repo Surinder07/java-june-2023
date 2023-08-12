@@ -1,6 +1,10 @@
 package assignment.aug12.abstractdemo;
 
 public class VideoMediaPlayer extends MediaPlayer{
+    public VideoMediaPlayer(int size, int capacity) {
+        super(size, capacity);
+    }
+
     @Override
     public void play() {
         System.out.println("Video is playing");
