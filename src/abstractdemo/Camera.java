@@ -1,4 +1,4 @@
-package assignment.aug12.abstractdemo;
+package abstractdemo;
 
 public interface Camera {
 

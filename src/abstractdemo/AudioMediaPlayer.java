@@ -1,4 +1,4 @@
-package assignment.aug12.abstractdemo;
+package abstractdemo;
 
 
 
@@ -10,7 +10,7 @@ public class AudioMediaPlayer extends MediaPlayer{
 
     @Override
     public void play() {
-        System.out.println("Audio is playing");
+        System.out.println("Audio is playing" + size);
     }
 
     @Override

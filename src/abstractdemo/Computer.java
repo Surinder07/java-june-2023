@@ -1,6 +1,8 @@
-package assignment.aug12.abstractdemo;
+package abstractdemo;
 
 public interface Computer {
+
+    // static final
 
     void calculate();
     void surfInternet();

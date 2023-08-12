@@ -1,4 +1,4 @@
-package assignment.aug12.abstractdemo;
+package abstractdemo;
 
 public class Mobile implements Computer, Telephone, Camera{
     @Override

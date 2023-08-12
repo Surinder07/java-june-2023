@@ -1,4 +1,4 @@
-package assignment.aug12.abstractdemo;
+package abstractdemo;
 
 public class VideoMediaPlayer extends MediaPlayer{
     public VideoMediaPlayer(int size, int capacity) {
