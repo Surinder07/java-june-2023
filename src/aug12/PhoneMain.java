@@ -1,10 +1,13 @@
 package aug12;
+
+
+
 public class PhoneMain {
 
     public static void main(String[] args) {
-        Mobile mobile = new Mobile();
+        Computer mobile = new Mobile();
         mobile.calculate();
         mobile.surfInternet();
-        mobile.takePictures();
+      //  ((Camera)mobile).takePictures();
     }
 }
