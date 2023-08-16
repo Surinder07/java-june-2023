@@ -9,5 +9,9 @@ public class Test {
         innerClassObj.insideMethod();
         innerClassObj.x = 10;
 
+        // member inner class
+        // static inner class
+        // annoymous inner class
+
     }
 }

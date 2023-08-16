@@ -1,11 +1,10 @@
 package july8;
 
-import java.util.Scanner;
-
+// by default lang package is available to all the classes
 public class Test {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+
         System.out.println("Enter your input");
 
        /*

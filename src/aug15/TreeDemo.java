@@ -26,7 +26,7 @@ public class TreeDemo {
     }
 }
 
-
+// 9:10
 // we can not make object of interface
 // we can not make object of abstract class
 // we can assign child class object to parent ref.
