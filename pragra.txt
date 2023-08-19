@@ -1,0 +1,5 @@
+Encapsulation in Java is a process of wrapping code and data together into a single unit
+We can create a fully encapsulated class in Java by making all the data members of the class private.
+
+By providing only a setter or getter method, you can make the class read-only or write-only. In other words, you can skip the getter or setter methods.
+It is a way to achieve data hiding in Java because other class will not be able to access the data through the private data members.
