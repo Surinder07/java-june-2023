@@ -7,6 +7,7 @@ public class TestMobile {
         mobile.getCapacity();
         System.out.println(mobile.getScreenSize());
 
+
         mobile.setBrand("Samsung");
         mobile.setScreenSize(2.4);
         System.out.println(mobile.getBrand());
