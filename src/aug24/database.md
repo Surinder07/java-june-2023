@@ -1,0 +1,81 @@
+-- list all the databases;
+show databases;
+
+-- to select database
+use Employee;
+
+-- to show tables in the database
+show tables;
+
+-- to list all the fields in the table
+SELECT * FROM EMPLOYEE;
+
+-- to list specific columns of the table
+-- to list distinct values  
+SELECT DISTINCT
+EMPLOYEE_ADDRESS
+FROM EMPLOYEE;
+
+-- where
+-- Put a certain condition
+SELECT EMPLOYEE_NAME, EMPLOYEE_SALARY FROM EMPLOYEE
+WHERE EMPLOYEE_SALARY > 60000;
+
+-- Sort in order ,  by default in acending order
+SELECT EMPLOYEE_NAME, EMPLOYEE_SALARY
+FROM EMPLOYEE
+ORDER BY EMPLOYEE_SALARY ;
+
+-- Descending order
+SELECT EMPLOYEE_NAME, EMPLOYEE_SALARY
+FROM EMPLOYEE
+ORDER BY EMPLOYEE_SALARY DESC;
+
+-- AND OR (&& ||)
+
+SELECT EMPLOYEE_NAME, EMPLOYEE_SALARY, EMPLOYEE_ADDRESS
+FROM EMPLOYEE
+WHERE EMPLOYEE_SALARY > 50000 OR EMPLOYEE_ADDRESS = 'JAPAN';
+
+-- INSERT THE RECORDS
+INSERT INTO EMPLOYEE
+(EMPLOYEE_ID, EMPLOYEE_NAME,
+EMPLOYEE_ADDRESS,EMPLOYEE_PHONE,
+EMPLOYEE_SALARY, EMPLOYEE_GENDER,
+EMP_JOIN_DATE)
+VALUES
+(1009, 'Raman', 'Toronto',123123456, 100000,'F', '2017-01-01');
+
+desc EMPLOYEE ;
+
+SELECT * FROM EMPLOYEE;
+
+-- delete
+-- DELETE FROM EMPLOYEE
+-- WHERE EMPLOYEE_SALARY = 123;
+
+
+-- UPDATE A RECORD
+
+UPDATE EMPLOYEE
+SET EMPLOYEE_ADDRESS = 'Toronto'
+where EMPLOYEE_NAME = 'RAMAN';
+
+
+-- LIMIT
+
+SELECT * FROM EMPLOYEE
+LIMIT 10;
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
