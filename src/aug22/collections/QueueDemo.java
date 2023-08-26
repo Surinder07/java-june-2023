@@ -2,10 +2,12 @@ package aug22.collections;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.function.Consumer;
 
 public class QueueDemo {
     public static void main(String[] args) {
         Queue<Integer> queue = new LinkedList();
+
 
         queue.offer(12); // first person in tim hortons line
         queue.offer(32);
