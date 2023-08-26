@@ -4,10 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.function.BiConsumer;
-import java.util.function.BiPredicate;
-import java.util.function.Consumer;
-import java.util.function.Predicate;
+import java.util.function.*;
 import java.util.stream.Stream;
 
 public class Test {
@@ -33,7 +30,35 @@ public class Test {
 
         // https://www.w3resource.com/java-exercises/lambda/index.php
 
+        // input nothing --> returns value
+        Supplier<String> supplier = () -> "Hello How are you ?";
+        String s = supplier.get();
+        System.out.println(s);
 
+
+        //
+        Function<String, Integer> function = st -> st.length();
+        System.out.println(function.apply("Surinder"));
+
+        BiFunction<Integer, Integer, Integer> func = (a, b) -> a+b;
+        System.out.println(func.apply(10, 20));
+
+
+        List<Integer> list = new ArrayList<>();
+        list.add(12);
+        list.add(13);
+        list.add(132);
+        list.add(1243);
+        list.add(1243);
+        list.add(1243);
+        list.stream().
+
+
+                // create a class Student
+        // name email phone Address
+
+        // Address ---> city , county , postal code
+        // main class -- Student
     }
 }
 
