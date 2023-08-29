@@ -51,7 +51,7 @@ public class Test {
         list.add(1243);
         list.add(1243);
         list.add(1243);
-        list.stream().
+
 
 
                 // create a class Student
