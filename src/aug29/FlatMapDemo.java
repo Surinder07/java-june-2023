@@ -13,13 +13,22 @@ public class FlatMapDemo {
         List<String> names3 = Arrays.asList("Peter", "Gupreet","John", "Alka","Azim");
 
 
+
+
         List<List<String>> allNames = Arrays.asList(names1, names2, names3);
+
+        // create a new list
+
+       /* for (List<String> newNames : allNames) {
+            for
+
+        }*/
+
         System.out.println(allNames);
 
         List<String> newList = allNames
                 .stream()
                 .flatMap(x -> x.stream())
-                .map(x -> x.toUpperCase())
                 .collect(Collectors.toList());
         System.out.println(newList);
 
