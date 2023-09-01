@@ -11,9 +11,7 @@ public class Demo {
                         "Gurpreet",
                         null,
                 Arrays.asList("Maths","Science","Physics","History"));
-
        // System.out.println(student);
-
         Optional<Object> empty = Optional.empty();
         //System.out.println(empty);
 
@@ -26,7 +24,6 @@ public class Demo {
 
         // method reference
         System.out.println(email.map(String::toLowerCase).orElseGet(() -> "defaultEmail@gmail.com"));
-
 
     }
 }
